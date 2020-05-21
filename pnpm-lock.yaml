@@ -1,0 +1,73 @@
+dependencies:
+  eris: 0.11.2
+  node-fetch: 2.6.0
+  systeminformation: 4.23.1
+  uuid: 8.0.0
+lockfileVersion: 5.1
+packages:
+  /eris/0.11.2:
+    dependencies:
+      ws: 7.2.3
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    optionalDependencies:
+      opusscript: 0.0.7
+      tweetnacl: 1.0.3
+    resolution:
+      integrity: sha512-OhccRcxrPiNUylTamrjIbZM6itKMLjNrwLIXGvNwQZj4CRVOOz9eUVIqOJULB713x1ezw7HoC8AEsnsMNUneDA==
+  /node-fetch/2.6.0:
+    dev: false
+    engines:
+      node: 4.x || >=6.0.0
+    resolution:
+      integrity: sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+  /opusscript/0.0.7:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha512-DcBadTdYTUuH9zQtepsLjQn4Ll6rs3dmeFvN+SD0ThPnxRBRm/WC1zXWPg+wgAJimB784gdZvUMA57gDP7FdVg==
+  /systeminformation/4.23.1:
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    hasBin: true
+    os:
+      - darwin
+      - linux
+      - win32
+      - freebsd
+      - openbsd
+      - netbsd
+      - sunos
+    resolution:
+      integrity: sha512-gtqfvz5jUIMqWn0kkdkV4G8uiLmJckQ+z6aKy1uyE0OPU/6tStubahtZDiF0ajSRVJht+Vd4pX5DDwQLhAapww==
+  /tweetnacl/1.0.3:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw==
+  /uuid/8.0.0:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-jOXGuXZAWdsTH7eZLtyXMqUb9EcWMGZNbL9YcGBJl4MH4nrxHmZJhEHvyLFrkxo+28uLb/NYRcStH48fnD0Vzw==
+  /ws/7.2.3:
+    dev: false
+    engines:
+      node: '>=8.3.0'
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+    resolution:
+      integrity: sha512-HTDl9G9hbkNDk98naoR/cHDws7+EyYMOdL1BmjsZXRUjf7d+MficC4B7HLUPlSiho0vg+CWKrGIt/VJBd1xunQ==
+specifiers:
+  eris: ^0.11.2
+  node-fetch: ^2.6.0
+  systeminformation: ^4.23.1
+  uuid: ^8.0.0
