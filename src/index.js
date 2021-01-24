@@ -26,8 +26,8 @@ bot.on("ready", async () => {
 
   if (!initialized) {
     initialized = true;
-    const channel = bot.getChannel("709083480713330778"); // change this to channel it
-    const message = await channel.getMessage("709464552986771587"); // change this to the message
+    const channel = bot.getChannel("769229040857907220"); // change this to channel it
+    const message = await channel.getMessage("769229205367554101"); // change this to the message
 
     const embed = await getEmbed("Updated at");
     await message.edit(embed);
