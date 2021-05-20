@@ -11,8 +11,8 @@ const config = require("../config.json");
 
 const bot = new CommandClient(config.token, {}, {
   description: "Server Stats what else!",
-  owner: "lorenzo",
-  prefix: "%%%"
+  owner: "big shaq",
+  prefix: "\\\"
 });
 
 let initialized = false;
@@ -107,7 +107,7 @@ bot.registerCommand("stats", async (message) => {
 });
 
 bot.registerCommand("eval", async (message, params) => {
-  if (message.author.id !== "511102742719102976") return;
+  if (message.author.id !== "188363246695219201") return;
   let evaled;
   try {
     const stopwatchStart = process.hrtime()
