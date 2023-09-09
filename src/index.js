@@ -19,10 +19,6 @@ let initialized = false;
 
 bot.on("ready", async () => {
   console.log("Ready");
-  await bot.editStatus("dnd", {
-    type: 3,
-    name: "the server"
-  });
 
   if (!initialized) {
     initialized = true;
