@@ -12,7 +12,7 @@ const config = require("../config.json");
 const bot = new CommandClient(config.token, {}, {
   description: "Server Stats what else!",
   owner: "big shaq",
-  prefix: "\\\"
+  prefix: "gwrewgrewgrews"
 });
 
 let initialized = false;
